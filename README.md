@@ -20,7 +20,7 @@ Replacing [Boxen](https://github.com/boxen/boxen/) in [GitHub](https://github.co
 - Installs dotfiles from a user's `https://github.com/username/dotfiles` repository and runs `script/setup` to configure them.
 - Installs software from a user's `Brewfile` in their `https://github.com/username/homebrew-brewfile` repository or `.Brewfile` in their home directory.
 - A simple web application to set Git's name, email and GitHub token (needs authorized on any organisations you wish to access)
-- Idempotent
+- Idempotent - it's safe to strap multiple times, at first install, when you want updates, when you updated your dotfiles and .Brewfile on one device and want to spread the change to more devices
 
 ## Out of Scope Features
 - Enabling any network services by default (instead enable them when needed)
